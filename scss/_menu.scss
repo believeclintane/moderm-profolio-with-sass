@@ -9,7 +9,7 @@
   .btn-link {
     width: 28px;
     height: 3px;
-    background: #fff;
+    background: set-text-color($primary-color);
     margin: 0 0 5px 0;
     @include easeOut;
   }
@@ -100,7 +100,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
     &:hover {
